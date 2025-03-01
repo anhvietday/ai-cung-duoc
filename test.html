@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="fruit">Chọn một loại trái cây:</label>
+<select id="fruit">
+    <option value="apple">Táo</option>
+    <option value="banana">Chuối</option>
+    <option value="orange">Cam</option>
+</select>
+<button onclick="getSelectedValue()">Lấy giá trị</button>
+
+<script>
+    function getSelectedValue() {
+        let selectedValue = document.getElementById("fruit").value;
+        alert("Bạn đã chọn: " + selectedValue);
+    }
+</script>
+</body>
+</html>
+

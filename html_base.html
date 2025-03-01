@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ HTML Cơ Bản</title>
+</head>
+<body>
+
+    <!-- 1. Tiêu đề -->
+    <h1>Tiêu đề H1</h1>
+    <h2>Tiêu đề H2</h2>
+    <h3>Tiêu đề H3</h3>
+    <h4>Tiêu đề H4</h4>
+    <h5>Tiêu đề H5</h5>
+    <h6>Tiêu đề H6</h6>
+
+    <!-- 2. Đoạn văn -->
+    <p>Đây là một đoạn văn bản.</p>
+
+    <!-- 3. Định dạng văn bản -->
+    <strong>Chữ in đậm</strong> - <em>Chữ in nghiêng</em> - <u>Chữ gạch chân</u>
+
+    <!-- 4. Danh sách -->
+    <ul>
+        <li>Danh sách không thứ tự - Mục 1</li>
+        <li>Danh sách không thứ tự - Mục 2</li>
+    </ul>
+
+    <ol>
+        <li>Danh sách có thứ tự - Mục 1</li>
+        <li>Danh sách có thứ tự - Mục 2</li>
+    </ol>
+
+    <!-- 5. Liên kết -->
+    <a href="https://example.com" target="_blank">Đây là một liên kết</a>
+
+    <!-- 6. Hình ảnh -->
+    <img src="https://via.placeholder.com/150" alt="Ảnh mẫu">
+
+    <!-- 7. Bảng -->
+    <table border="4">
+        <thead>
+            <tr>
+                <th>Cột 1</th>
+                <th>Cột 2</th>
+            </tr>
+            <tr>
+                <td>Cột 1</th>
+                <td>Cột 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dữ liệu 1</td>
+                <td>Dữ liệu 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 8. Form -->
+    <form >
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" placeholder="Nhập họ tên" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Nhập email" required>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="number" id="password" placeholder="Nhập mật khẩu" required>
+
+        <label for="message">Tin nhắn:</label>
+        <textarea id="message" rows="4" placeholder="Nhập nội dung"></textarea>
+
+        <label for="gender">Giới tính:</label>
+        <select id="gender">
+            <option value="male">Nam</option>
+            <option value="female">Nữ</option>
+        </select>
+
+        <input type="checkbox" id="agree">
+        <label for="agree">Tôi đồng ý với điều khoản</label>
+
+        <button type="submit">Gửi</button>
+    </form>
+
+</body>
+</html>
